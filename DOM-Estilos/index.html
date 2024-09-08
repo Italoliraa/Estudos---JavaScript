@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editando Elementos</title>
+
+    <style>
+        .vermelho{
+            background: #FF0000;
+        }
+        .verde{
+            background: greenyellow;
+        }
+        .azul{
+            background: blue;
+            color: white;
+        }
+        #block{
+            height: 250px;
+            width: 250px;
+            border: 1px solid;
+            margin-top: 25px;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Manipulando elementos</h3>
+
+    <button class="vermelho" type="button" onclick="modificaEstilo('#FF0000')">Vermelho</button>
+    <button class="verde" type="button" onclick="modificaEstilo('#008000')">Verde</button>
+    <button class="azul" type="button" onclick="modificaEstilo('#0000FF')">Azul</button>
+
+    <div id="block"></div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>
